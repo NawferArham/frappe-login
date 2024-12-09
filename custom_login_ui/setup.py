@@ -5,7 +5,8 @@ setup(
     version='0.0.1',
     packages=find_packages(),
     include_package_data=True,
-    install_requires=[
-        'frappe',  # Add any other dependencies you need here
-    ],
+    author_email="nawferarham@gmail.com",
+	zip_safe=False,
+	include_package_data=True,
 )
+
